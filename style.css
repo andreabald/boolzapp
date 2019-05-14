@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-flex{
+  display: flex;
+}
+
+.elenco_chat{
+  width: 40%;
+  height: 100vh;
+  border-right: 1px solid black;
+
+}
+
+.barra_profilo{
+  width: 100%;
+  height: 10%;
+  background-color: gray;
+  display: flex;
+}
+
+.img_prof{
+  width: 60%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.icone_new_msg{
+  width: 40%;
+  height: 100%;
+}
+
+.barra_ricerca{
+  width: 100%;
+  height: 10%;
+  background-color: lightgray;
+}
+
+.elenco{
+  width: 100%;
+  height: 80%;
+}
+
+.chat_aperta{
+  width: 60%;
+  height: 100vh;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+}
+
+.barra_chat_aperta{
+  width: 100%;
+  height: 10%;
+  background-color: gray;
+  display: flex;
+}
+
+.contatto{
+  width: 80%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.icone_allegati{
+  width: 20%;
+  height: 100%;
+}
+
+.messaggi{
+  width: 100%;
+  height: 80%;
+  background-color: lightgreen;
+}
+
+.imput{
+  width: 100%;
+  height: 10%;
+  background-color: lightgray;
+}
